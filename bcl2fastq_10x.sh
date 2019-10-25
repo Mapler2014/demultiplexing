@@ -1,0 +1,15 @@
+/HWPROJ1/XJ/demultiplex/Bin/bcl2fastq_V219  \
+--use-bases-mask=Y26n125,I8,N8,Y98n53 \
+-R "/HWPROJ1/DATA1/E00489/190208_E00489_0383_BHWK5WCCXY" \
+--output-dir="/RLNAS01/HW/guanhuibao/10X/C202SC19011121" \
+--interop-dir="/HWPROJ1/DATA1/E00489/190208_E00489_0383_BHWK5WCCXY/InterOp" \
+--sample-sheet="samplesheet.csv"\
+--create-fastq-for-index-reads \
+--minimum-trimmed-read-length=8 \
+--mask-short-adapter-reads=8 \
+--ignore-missing-positions \
+--ignore-missing-controls \
+--ignore-missing-filter \
+--ignore-missing-bcls \
+-r 6 -w 6 \
+--tiles s_6 
