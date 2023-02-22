@@ -1,4 +1,4 @@
-/HWPROJ1/XJ/demultiplex/Bin/bcl2fastq_V219  \
+Bin/bcl2fastq  \
 --use-bases-mask=Y26n125,I8,N8,Y98n53 \
 -R "/HWPROJ1/DATA1/E00489/190208_E00489_0383_BHWK5WCCXY" \
 --output-dir="/RLNAS01/HW/guanhuibao/10X/C202SC19011121" \
